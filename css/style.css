@@ -34,7 +34,37 @@ header{
     background-color: white;
     margin: 50px auto;
     border-radius: 10px;
+    padding-top: 20px;
 }
 
+/* BUTTON  */
+.buttons {
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    
+}
+
+.add-task {
+    background-color: #1E90FF;
+    color: white;
+    border:none;
+    
+}
+
+.add-section {
+    color: lightgray;
+    background-color: white;
+    border: 1px solid;
+}
+
+hr {
+    border: 1px solid #F5F5F5;
+}
 
 
