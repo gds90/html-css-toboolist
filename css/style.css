@@ -68,8 +68,12 @@ hr {
 
 /* LISTA */
 
+.lists {
+    padding-left: 50px;
+}
+
 ul {
-    margin: 50px 100px;
+    margin: 20px;
     list-style: none;
     
 }
@@ -79,7 +83,7 @@ ul {
     font-family: sans-serif;
     font-weight: bold;
     color: #1C2833;
-    line-height: 2.5;
+    line-height: 2;
 
 }
 
