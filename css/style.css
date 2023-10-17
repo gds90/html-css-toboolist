@@ -8,6 +8,10 @@ body {
     background-color: #F5F5F5;
 }
 
+main {
+
+}
+
 /* HEADER  */
 header{
     width: 100%;
@@ -21,7 +25,15 @@ header{
     font-family: sans-serif;
     font-weight: 800;
     vertical-align: top;
-    
+}
+
+/* MAIN  */
+.main-container{
+    width: 800px;
+    height: 750px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 10px;
 }
 
 
