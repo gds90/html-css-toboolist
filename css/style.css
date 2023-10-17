@@ -67,4 +67,31 @@ hr {
     border: 1px solid #F5F5F5;
 }
 
+/* LISTA */
+
+ul {
+    margin: 50px 100px;
+    
+}
+
+li {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #1C2833;
+    line-height: 2.5;
+
+}
+
+.tasks {
+    font-size: 20px;
+    color: #1C2833;
+    font-family: sans-serif;
+    display: block;
+    line-height: 2
+    ;
+
+}
+
+
 
