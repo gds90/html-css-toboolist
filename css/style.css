@@ -47,7 +47,6 @@ header{
     padding: 10px;
     margin: 5px;
     border-radius: 4px;
-    
 }
 
 .add-task {
@@ -87,11 +86,71 @@ li {
     font-size: 20px;
     color: #1C2833;
     font-family: sans-serif;
-    display: block;
-    line-height: 2
-    ;
-
+    line-height: 2.2;
 }
 
+.done {
+    color: green;
+    border: 1px solid;
+    border-radius:50%;
+    margin-right: 10px;
+}
+
+.not-done {
+    color: red;
+    border: 1px solid;
+    border-radius:50%;
+    margin-right: 10px;
+}
+
+/* COLORI TOPIC */
+
+.editorial {
+    background-color: #1E90FF;
+    color: white;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.q1-goals {
+    background-color: #933ED3;
+    color: white;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.recruiting {
+    background-color:#16BB97;
+    color: white;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mobile {
+    background-color: orange;
+    color: white;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.website {
+    background-color: #CC62CB;
+    color: white;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sales {
+    background-color:#93C254;
+    color: white;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 
