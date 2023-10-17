@@ -8,9 +8,6 @@ body {
     background-color: #F5F5F5;
 }
 
-main {
-
-}
 
 /* HEADER  */
 header{
@@ -84,7 +81,6 @@ ul {
     font-weight: bold;
     color: #1C2833;
     line-height: 2;
-
 }
 
 .tasks {
