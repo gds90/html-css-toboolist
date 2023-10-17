@@ -30,7 +30,7 @@ header{
 /* MAIN  */
 .main-container{
     width: 800px;
-    height: 750px;
+    height: 800px;
     background-color: white;
     margin: 50px auto;
     border-radius: 10px;
@@ -70,10 +70,11 @@ hr {
 
 ul {
     margin: 50px 100px;
+    list-style: none;
     
 }
 
-li {
+.task-type {
     font-size: 25px;
     font-family: sans-serif;
     font-weight: bold;
@@ -83,7 +84,7 @@ li {
 }
 
 .tasks {
-    font-size: 20px;
+    font-size: 24px;
     color: #1C2833;
     font-family: sans-serif;
     line-height: 2.2;
