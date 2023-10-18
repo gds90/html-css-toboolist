@@ -11,39 +11,38 @@ body {
 
 /* HEADER  */
 header{
-    width: 100%;
-    padding: 15px;
+    padding: 15px 20px;
     background-color: white;
 }
 
 .logo-text{
     font-size: 40px;
-    display: inline-block;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 800;
     vertical-align: top;
 }
 
 /* MAIN  */
 .main-container{
-    width: 800px;
-    height: 800px;
+    max-width: 991px;
+    max-height: 991px;
     background-color: white;
     margin: 50px auto;
-    border-radius: 10px;
-    padding-top: 20px;
+    border-radius: 15px;
+    padding: 10px 0;
 }
 
 /* BUTTON  */
 .buttons {
-    padding-left: 50px;
-    margin-bottom: 10px;
+   padding: 15px 50px;
+   border-bottom: 2px solid #F5F5F5;
 }
 
 .button {
     padding: 10px;
     margin: 5px;
     border-radius: 4px;
+    font-weight: 500;
 }
 
 .add-task {
@@ -51,28 +50,26 @@ header{
     color: white;
     border:none;
     
+    
 }
 
 .add-section {
     color: lightgray;
-    background-color: white;
+    background-color: transparent;
     border: 1px solid;
 }
 
-hr {
-    border: 1px solid #F5F5F5;
-}
+
 
 /* LISTA */
 
 .lists {
-    padding-left: 50px;
+    padding:20px 50px;
 }
 
 ul {
     margin: 20px;
     list-style: none;
-    
 }
 
 .task-type {
@@ -90,70 +87,54 @@ ul {
     line-height: 2.2;
 }
 
-.done {
-    color: green;
-    border: 1px solid;
+.circle {
     border-radius:50%;
     margin-right: 10px;
     padding-left: 2px;
 }
 
+.done {
+    color: green;
+    border: 1px solid;
+}
+
 .not-done {
     color: red;
     border: 1px solid;
-    border-radius:50%;
-    margin-right: 10px;
-    padding-left: 5px;
 }
 
-/* COLORI TOPIC */
+/* TOPIC */
+
+.topic {
+    color: white;
+    border:none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
 
 .editorial {
     background-color: #1E90FF;
-    color: white;
-    border:none;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 .q1-goals {
     background-color: #933ED3;
-    color: white;
-    border:none;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 .recruiting {
     background-color:#16BB97;
-    color: white;
-    border:none;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 .mobile {
     background-color: orange;
-    color: white;
-    border:none;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 .website {
     background-color: #CC62CB;
-    color: white;
-    border:none;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 .sales {
     background-color:#93C254;
-    color: white;
-    border:none;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 
